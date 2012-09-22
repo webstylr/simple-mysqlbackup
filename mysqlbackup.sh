@@ -10,8 +10,6 @@ NOWDIR=`date +"%Y-%m-%d"`;
 NOWFILE=`date +"%Y-%m-%d"`;
 OLDEST=`date -d "$OLDESTDIR" "+%s"`;
 BACKUPDIR="$STORAGEDIR/$NOWDIR";
-echo "Now:$NOW";
-echo "BDIR:$BACKUPDIR";
 DIFF=$(($NOW-$OLDEST));
 DAYS=$(($DIFF/ (60*60*24)));
 DIRLIST=`ls -lRh $BACKUPDIR`;
