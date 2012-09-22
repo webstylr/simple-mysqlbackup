@@ -8,7 +8,7 @@ bash script to backup your databases
 
 <code>IGNOREDB</code> = List of Databases to ignore.
 
-<code>ROTATION</code> = Number of days the backuo should rotate. Default is 7.
+<code>ROTATION</code> = Number of days the backup should rotate. Default is 7.
 
 <code>MUSER</code> = Username
 
