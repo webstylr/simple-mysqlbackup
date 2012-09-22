@@ -4,15 +4,15 @@ simple-mysqlbackup
 bash script to backup your databases
 
 ##Parameters##
-STORAGEDIR = Folder where the script stores your backup.
+<code>STORAGEDIR</code> = Folder where the script stores your backup.
 
-IGNOREDB = List of Databases to ignore.
+<code>IGNOREDB</code> = List of Databases to ignore.
 
-ROTATION = Number of days the backuo should rotate. Default is 7.
+<code>ROTATION</code> = Number of days the backuo should rotate. Default is 7.
 
-MUSER = Username
+<code>MUSER</code> = Username
 
-MPASS = Password
+<code>MPASS</code> = Password
 
 Suggestions
 ===========
