@@ -104,5 +104,5 @@ if [ "$CHECKSUM" == "$CHECKOUTS" ]; then
 else
     echo "Dispatching Karl, he's an Expert";
     ### Send mail with contents of logfile ###
-    #mail -s "Backuplog" mail@domain.tld < /temp/backuplog.txt;
+    #mail -s "Backuplog" mail@domain.tld < /tmp/backuplog.txt;
 fi
